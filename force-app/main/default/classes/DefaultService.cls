@@ -4,9 +4,23 @@
  * @date 21st August 2021
  */
 public global interface DefaultService {
+
         /**
-         * @description default service signature
+         * @description initialise the service
          * @return String Value
          */
-        String generateDefaultService();
+        String initialiseService();
+
+        /**
+         * @description peform the service
+         * @return String Value
+         */
+        String performService();
+
+        /**
+         * @description close the service
+         * @return String Value
+         */
+        String closeService();
+
 }

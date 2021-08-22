@@ -7,19 +7,19 @@ public global interface DefaultService {
 
         /**
          * @description initialise the service
-         * @return String Value
+         * @return result of initialisation
          */
         String initialiseService();
 
         /**
          * @description peform the service
-         * @return String Value
+         * @return result of perform
          */
         String performService();
 
         /**
          * @description close the service
-         * @return String Value
+         * @return result of close
          */
         String closeService();
 

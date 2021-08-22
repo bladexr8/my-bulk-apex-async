@@ -17,7 +17,7 @@ public class DefaultServiceImpl implements DefaultService {
          * @description peform the service
          * @return result of perform
          */
-        String performService() {
+        public String performService() {
             return 'Default Service Performed';
         }
 
@@ -25,7 +25,7 @@ public class DefaultServiceImpl implements DefaultService {
          * @description close the service
          * @return result of close
          */
-        String closeService() {
+        public String closeService() {
             return 'Default Service Closed';
         }
 }

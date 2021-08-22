@@ -3,7 +3,7 @@
  * @author Stephen Moss
  * @date 21st August 2021
  */
-public global interface DefaultService {
+public interface DefaultService {
 
         /**
          * @description initialise the service
